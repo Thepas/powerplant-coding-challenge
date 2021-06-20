@@ -37,7 +37,7 @@ You can also run the test with the following command:
 poetry run python tests/test.py
 ```
 ## expected results
-payload example (payload2.json):
+payload example (payload1.json):
 ```Json
 {
   "load": 480,
