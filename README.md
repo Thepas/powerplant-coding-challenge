@@ -124,7 +124,10 @@ result example:
     }
 ]
 ```
-## Unit Commitment flowchart
+## Unit Commitment's algorithm flowchart
 ![flowchart Unit Commitment](https://raw.githubusercontent.com/Thepas/powerplant-coding-challenge/master/flowcharts/unit_commitment.png)
-## To DO
 
+## To DO
+- Complete the exception cases where the result cannot be found
+- Review the calculation for the cost of CO2
+- Provide a Dockerfile and websocket if time allow
