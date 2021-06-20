@@ -125,6 +125,6 @@ result example:
 ]
 ```
 ## Unit Commitment flowchart
-![flowchart Unit Commitment](https://github.com/Thepas/powerplant-coding-challenge/blob/master/flowcharts/unit_commitment.png)
+![flowchart Unit Commitment](https://raw.githubusercontent.com/Thepas/powerplant-coding-challenge/master/flowcharts/unit_commitment.png)
 ## To DO
 
