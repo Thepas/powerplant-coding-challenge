@@ -1,6 +1,12 @@
 import json
 
 
+# class MyDict(dict):
+#     def __str__(self):
+#         return str({k: round(v, 2) if isinstance(v, float) else v
+#                     for k, v in self.iteritems()})
+
+
 def dictDestructure(dic, *items):
     """ gets a dict and the keys as parameters and 'destructures' according to the given sequence"""
     return (dic[item] if item in dic else None for item in items)  #
@@ -78,4 +84,4 @@ if __name__ == '__main__':
     power_plants = payload["powerplants"]
     fuels_cost = payload["fuels"]
     # merit_order = sortByMeritOrder(power_plants, fuels_cost)
-    response = prod_calculate(payload["load"], fuels_cost, power_plants)
+    result = prod_calculate(payload["load"], fuels_cost, power_plants)
