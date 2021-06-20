@@ -28,7 +28,7 @@ poetry run python src/main.py
 
 To run test and submit POST request, you can use the following command:
 ```
-curl -X POST -d @example_payloads/payload2.json -H "Content-Type: application/json" http://127.0.0.1:8888/productionplan
+curl -X POST -d @example_payloads/payload1.json -H "Content-Type: application/json" http://127.0.0.1:8888/productionplan
 ```
 (you can choose the payload you want to test by changing the file name.)
 
